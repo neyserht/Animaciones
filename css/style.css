@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 250px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: -240px;
+    top: 0;
+    border:  1px solid black;
+    padding: 10px;
+    transition: all 0.5s ease;
+}
+header:hover{
+    left: 0;
+    transition: all 0.5s ease;
+}
+nav a {
+    display: block;
+    background-color: brown;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    margin-bottom: 5px;
+    
+}
+nav a:hover {
+    
+    background-color: red;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    
+    
+}
+nav a .flecha{
+    transition: all 0.5s ease;
+    position: absolute;
+    right: 150px;
+}
+nav a:hover .flecha{
+    transition: all 0.5s ease;
+    
+    right: 15px;
+}
+
+
+.flecha{
+    font-size: 16px;
+    color: blue;
+    
+    
+}
+
+
+.btn{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    transition: all 3s ease;
+}
+.btn:hover{
+    background-color: green;
+    color: black;
+    padding: 15px 15px;
+    transition: background-color 3s ease;
+}
+
+.boton{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    transition: 
+    padding 3s linear,
+    background-color 0.5s linear;
+    
+}
+.boton:hover{
+    background-color: green;
+    color: black;
+    padding: 15px 15px;
+    transition: background-color 3s linear;
+}
